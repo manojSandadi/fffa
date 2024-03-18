@@ -6,3 +6,4 @@ export async function GET() {
     .then(({ rows }) => rows)
     .then((rows) => NextResponse.json(rows));
 }
+
